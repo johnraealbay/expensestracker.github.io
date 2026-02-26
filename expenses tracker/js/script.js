@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const expenseForm = document.getElementById("expense-form");
     const expenseList = document.getElementById("expense-list");
-    const totalAmount = document.getElementById("total-amount");
+    const totalAmount = document.getElementById("total-amount"); 
     const filterCategory = document.getElementById("filter-category");
 
     let expenses = [];
